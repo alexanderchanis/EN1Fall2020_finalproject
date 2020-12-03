@@ -1,29 +1,34 @@
 <html>
-	<title>My Project (Remote)</title>
-	<head>
-		<script src="https://cdn.jsdelivr.net/gh/tuftsceeo/SPIKE-Web-Interface/cdn/ServiceDock.js" charset="utf-8"></script>
-	  <script src="../src/secret.js" charset="utf-8"></script>
-	  <script src="../src/cloud.js" charset="utf-8"></script>
-	  <link rel="stylesheet" href="../src/style.css" />
-	</head>
+  <title>Demo 01: Simple Buttons (Remote)</title>
+  <head>
+    <script src="https://cdn.jsdelivr.net/gh/tuftsceeo/SPIKE-Web-Interface/cdn/ServiceDock.js" charset="utf-8"></script>
+    <script src="../src/secret.js" charset="utf-8"></script>
+    <script src="../src/cloud.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="../src/style.css" />
+  </head>
 <body>
 
-	<!-- SERVICE DOCK -->
-	<div id="servicedock">
-		<service-airtable id="service_airtable" tablename="myProject"></service-airtable>
-	</div>
+  <!-- SERVICE DOCK -->
+  <div id="servicedock">
+    <service-airtable id="service_airtable" tablename="demo01"></service-airtable>
+  </div>
 
-  <h1>My Project (Remote Interface)</h1>
+  <h1>Demo 01: Simple Buttons</h1>
 
-	<!-- CREATE YOUR PROJECT HERE -->
+  <p>This demo shows simple buttons that activate code within SPIKE Prime Slots.</p>
 
-	<hr>
+  <h2>Remote Interface</h2>
 
-	<h2>My Project Quick Links:</h2>
+  <button cloud_action='update' cloud_name='command'>Forward</button>
+  <button cloud_action='update' cloud_name='command'>Backward</button>
+  <button cloud_action='update' cloud_name='command'>Stop</button>
+
+  <h2>Demo 01 Quick Links:</h2>
   <p>
     <ul>
-      <li><a href="./myProject_remote.html" target=_blank>My Project Remote Page</a></li>
-      <li><a href="./myProject_local.html" target=_blank>My Project Local Page</a></li>
+      <li><a href="./demo01_remote.html" target=_blank>Remote Page</a></li>
+      <li><a href="./demo01_local.html" target=_blank>Local Page</a></li>
+      <li><a href="./demo01_documentation.html" target=_blank>Documentation Page</a></li>
     </ul>
   </p>
 	<p><a href="../index.html">Return back to the main homepage.</a></p>
