@@ -11,13 +11,13 @@
 //   Cloud API Key in your code/within GitHub
 // - if you leave this blank ("") then code assumes you
 //   are using method #2 below
-var getAPIusername = "Alexander Chanis"; // fill in with your name (if left blank, assuming using method #2)
+var getAPIusername = ""; // fill in with your name (if left blank, assuming using method #2)
 
 // (2) Hardcode your API key information here
 
 // AIRTABLE SUPPORT
-var airtable_api = "key" + "XXXXXXXXXXX";     // fill in your info
-var airtable_baseid = "app" + "YYYYYYYYYYYY"; // fill in your info
+var airtable_api = "key" + "tRYQB2MBfaFGwA";     // fill in your info
+var airtable_baseid = "app" + "tvkT5NQ7AM1MNw"; // fill in your info
 
 // SYSTEMLINK SUPPORT
 var systemlink_api = "XXXXXXXXXXXXXXXXXX"; // fill in your info
