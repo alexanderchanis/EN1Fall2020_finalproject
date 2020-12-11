@@ -12,6 +12,20 @@
   <div id="servicedock">
     <service-airtable id="service_airtable" tablename="finalProject"></service-airtable>
   </div>
+  <style>
+  .red_button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+  </style>
 
   <h1>Dynamic Demolition</h1>
 
@@ -19,7 +33,7 @@
 
   <div style="text-align:center;width:1000px;">
 
-  <button style="background-color:PaleTurquoise;height:75px;width:125px" cloud_action='update' cloud_name='command'>45 Degrees Left</button>
+  <button class='red_button' style="background-color:PaleTurquoise;height:75px;width:125px" cloud_action='update' cloud_name='command'>45 Degrees Left</button>
   <button style="background-color:NavajoWhite;height:100px;width:175px" cloud_action='update' cloud_name='command'>Forward</button>
   <button style="background-color:PaleTurquoise;height:75px;width:125px" cloud_action='update' cloud_name='command'>45 Degrees Right</button><br><br>
   <button style="background-color:DarkTurquoise;height:75px;width:150px" cloud_action='update' cloud_name='command'>90 Degrees Left</button>
